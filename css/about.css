@@ -24,7 +24,7 @@ body {
 body {
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    background-color:#384879;
+    /* background-color:#384879; */
 }
 
 .wrapper {
@@ -91,7 +91,7 @@ body {
     right: .125em;
     bottom: .125em;
     left: .125em;
-    background-color: #000;
+    background-color: #fff;
 }
 
 /* Change the background position to display letter when the black zone isn't here */
@@ -117,3 +117,6 @@ body {
     background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_wallpaper_for_mac-t2.jpg);
 }
 
+.about-text {
+    color: black;
+}
