@@ -3,11 +3,6 @@
   http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
 */
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 *,
 :before,
 :after {
@@ -17,16 +12,6 @@
 }
 
 html,
-body {
-    min-height: 100%;
-}
-
-body {
-    font-family: 'Oswald', sans-serif;
-    color: #fff;
-    /* background-color:#384879; */
-}
-
 .wrapper {
     text-align: center;
 }
@@ -52,7 +37,7 @@ body {
 
 /* Clip text element */
 .clip-text {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
     line-height: 1;
     position: relative;
@@ -95,9 +80,9 @@ body {
 }
 
 /* Change the background position to display letter when the black zone isn't here */
-.clip-text--no-textzone:before {
+/* .clip-text--no-textzone:before {
     background-position: -.65em 0;
-}
+} */
 
 .clip-text--no-textzone:after {
     content: none;
@@ -117,6 +102,34 @@ body {
     background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_wallpaper_for_mac-t2.jpg);
 }
 
-.about-text {
-    color: black;
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
 }
+
+#icon-row {
+    justify-content: center;
+    height: 100px;
+}
+
+.skills {
+    margin-top: 15px;
+}
+
+#about {
+    width: 85%;
+    margin-top: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.profile {
+    width: 100%;
+}
+
