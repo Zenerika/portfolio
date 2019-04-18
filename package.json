@@ -1,5 +1,13 @@
 {
-
+  "name": "bulma-start",
+  "version": "0.0.2",
+  "description": "Start package for Bulma",
+  "keywords": [
+    "sass",
+    "bulma",
+    "css",
+    "bulma-start"
+  ],
   "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
   "license": "MIT",
   "devDependencies": {
@@ -20,6 +28,6 @@
     "deploy": "npm run css-deploy && npm run js-build",
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
-    "start": "npm-run-all --parallel css-watch js-watch"
+    "css-start": "npm-run-all --parallel css-watch js-watch"
   }
 }
